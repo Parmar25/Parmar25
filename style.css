@@ -1,0 +1,333 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: 'Josefin Sans', sans-serif;}
+.navbar .logo{
+    width: 70px;
+    height: auto;
+    margin: 1px 20px;
+    text-align: center;
+    gap: 5px;
+}
+.navbar{
+    display: flex;
+    background-color:#f8f8f8 ;
+    width: 100%; 
+    height: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+p{
+    font-size: 12px;
+    color:gray;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    margin: 17px -5px;
+    
+}
+
+.navbar .title-aayu{
+    color: green;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+ .menu ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
+.menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+    transition: 0.5s;
+    display: block;
+}
+.menu ul li:hover a{
+    color:white;
+}
+.nav-icon {
+    font-size: 25px;
+    margin: 20px 150px;
+    justify-content: center;
+    color: green
+}
+.nav-icon i{
+    padding: 10px;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    
+}
+.nav-icon > i:hover{
+    
+    transform: rotate(360deg);
+}
+.main{
+    width: 100%;
+
+}
+.main{
+    width: 100%;
+    height: 80vh;
+    background: url(../images/bg.jpg);
+    background-size:cover;
+    background-position: top;
+    position: relative;
+    
+    
+}
+
+.product-intro{
+    text-align: center;
+}
+.product-intro h1{
+    color: green;
+    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 30px 0px;
+}
+.product-intro h1 span{
+    color: black;   
+}
+.card-container{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 4rem 1.5rem;
+    
+}
+.card-container .card{
+    flex-basis: 22%;
+    
+}
+
+.product-name{
+    padding-top: 10px;
+    color: black;
+}
+.card img{
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    border-radius: 25px;
+    box-shadow: 3px 0px 4px gray;
+    
+}
+.card p{
+    font-size: 20px;
+    color:rgb(78, 78, 78);
+    margin: 10px 3px;
+    font-weight: 400;
+
+}
+/*
+.card::before{
+        content: '20% off';
+        height: 25px;
+        line-height: 25px;
+        color: white;
+        position: absolute;
+        background-color: green;
+        padding: 0px 4px;
+        transform: rotate(-20deg);
+    }
+*/
+.card:hover img, .card:hover h1{
+    width: 80%;
+    
+}
+.buy-btn{
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 19px;
+    border-radius: 40px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.buy-btn:hover{
+    box-shadow: 2px 2px 7px black;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.about-us-img{
+    display: flex;
+    margin: 20px 20px;
+}
+.about-us-img img{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px gray;
+}
+.para{
+    margin: 30px;
+    margin-left: 30px;
+    text-align: justify;
+    font-size: 25px;
+    
+}
+ .title-about{
+    color: green;
+    margin: 20px ;
+}
+.about-us h2{
+    text-align: center;
+    margin: 65px;
+    font-size: 30px;
+}
+.contact-title{
+    color: green;
+    margin: 20px ;
+}
+.contact-us h2{
+    text-align: center;
+    margin: 65px;
+    font-size: 30px;
+}
+
+/* Contact Form CSS*/
+.sign-up-form{
+    width: 30%;
+    background-color:rgb(63, 60, 60);
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.contact-container{
+    display: flex;
+
+}
+.address{
+    margin-left: 60px;
+}
+.address h3{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.address p{
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(0, 102, 255);
+}
+.address i{
+    font-size: 15px;
+}
+
+.sign-up-form:hover{
+    box-shadow: 3px 3px 7px gray
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0px;
+    padding: 20px;
+    color:indianred;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px ;
+    margin: 10px 15px;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+#subject{
+    width: 420px;
+    height: 100px;
+    margin: 10px 15px;
+    padding: 10px ;
+    border: 1px solid #999;
+    outline: none;
+
+}
+form button{
+    color: #fff;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-btn{
+    background-color:black;
+    color: white;
+    width: auto;
+}
+
+.twitter-btn{
+    background-color: #21afde;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+    padding: 5px 5px;
+}
+p{
+    margin: 0px 15px;
+}
+.follow{
+    margin-left: 100px;
+}
+.follow h3{
+    font-size: 25px;
+}
+.follow > i{
+    margin-top: 25px;    
+}
+
+.follow >.fa-facebook-square,.follow >.fa-instagram,.follow >.fa-whatsapp{
+    padding: 0px 40px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #2163de;
+}
+.follow >.fa-facebook-square:hover, .follow >.fa-instagram:hover, .follow >.fa-whatsapp:hover {
+    text-shadow: 2px 2px 5px rgb(24, 24, 197);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(114, 111, 111);
+    margin-top: 10px;
+
+}
+.copyright{
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 15px;
+}
